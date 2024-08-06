@@ -17,7 +17,7 @@ const Alumni = () => {
   return (
     <div className='overflow-hidden'>
 
-      {/* MAIN SECTION  */}
+      {/* MAIN SECTION */}
       <main id='main' className="grid grid-rows-1 grid-cols-1 relative">
 
         <div className={heroBanner} style={{ position: 'relative' }}>
@@ -64,13 +64,13 @@ const Alumni = () => {
 
               <ul className='px-8' style={{ listStyleType: 'disc' }}>
                 <li>
-                  <h2>HighSchool: <span className='font-bold'>greenacresfinance@gmail.com</span></h2>
+                  <h2>HighSchool: <span className='font-bold text-green-800'>greenacresfinance@gmail.com</span></h2>
                 </li>
                 <li>
-                  <h2>Secondary School: <span className='font-bold'>greenacresfinance@gmail.com</span></h2>
+                  <h2>Secondary School: <span className='font-bold text-green-800'>greenacresfinance@gmail.com</span></h2>
                 </li>
                 <li>
-                  <h2>Primary School: <span className='font-bold'>greenacresfinance@gmail.com</span></h2>
+                  <h2>Primary School: <span className='font-bold text-green-800'>greenacresfinance@gmail.com</span></h2>
                 </li>
               </ul>
             </div>
