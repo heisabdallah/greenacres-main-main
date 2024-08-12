@@ -2,7 +2,7 @@ const imageFolder = '/images';
 
 const images = {
     logos: {
-      image1: `${imageFolder}/ga.png`,
+      image1: `${imageFolder}/ga.svg`,
       image2: `${imageFolder}/ga_1.jpg`,
     },
     backgrounds: {

@@ -85,7 +85,7 @@ const Alumni = () => {
             <p>jacklyne.rushaigo@gmail.com</p>
             <div className='grid grid-cols-3 grid-rows-1 items-center'>
               <hr />
-              <Image className='w-10 h-10 place-self-center' src={images.logos.image2} width={100} height={100} />
+              <Image className='w-10 h-10 place-self-center fill-green-800' src={images.logos.image1} width={100} height={100} />
               <hr />
             </div>
           </div>
