@@ -132,7 +132,7 @@ const Alumni = () => {
             </div>
             <div className='w-full flex flex-col items-center'>
 
-            <Image className='mb-20 w-3/4 h-80 object-cover' src={images.sports.image1} width={1000} height={1000} />
+            <Image className='mb-20 w-3/4 h-80 object-cover' src={images.sports.image2} width={1000} height={1000} />
             </div>
           </div>
         </div>
