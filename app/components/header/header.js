@@ -86,7 +86,7 @@ const Header = () => {
         <div className='hidden md:flex h-14 items-center justify-between text-center bg-green-800 text-white font-md px-8 lg:px-20 xl:px-40'>
             <Link href='/'>
                 <div className='flex items-center justify-center'>
-                    <Image src='/images/ga.jpg' width='40' height='40' alt='green acres schools logo' priority='true' className='mr-2'/>
+                    <Image src='/images/ga.png' width='40' height='40' alt='green acres schools logo' priority='true' className='mr-2'/>
                         <h3 className='hidden whitespace-nowrap lg:block text-sm'>GREEN ACRES SCHOOLS</h3>
                  </div>
             </Link>

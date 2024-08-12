@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import images from '@/db/imagesData';
 import { heroBanner } from '../components/main/classes';
+import Footer from '../components/Footer/footer';
 
 
 
@@ -15,7 +16,7 @@ const Gallery = () => {
     <>
 
                   {/* MAIN SECTION  */}
-      <main id='main' className="grid grid-rows-1 grid-cols-1 font-montserrat">
+      <main id='main' className="grid grid-rows-1 grid-cols-1">
 
       <div className={heroBanner}>
               <Image src={images.students.image3} width={1920} height={1282} alt='hero pic' priority='true' className='h-full w-full object-cover'/>
@@ -33,6 +34,9 @@ const Gallery = () => {
 
         </div>
       </main>
+      <footer>
+        <Footer />
+      </footer>
 
     </>
   );

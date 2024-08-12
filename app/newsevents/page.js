@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { heroBanner } from '../components/main/classes';
 import strings from '@/db/stringsData';
 import images from '@/db/imagesData';
+import Footer from '../components/Footer/footer';
 
 
 const Newsevents = () => {
@@ -10,7 +11,7 @@ const Newsevents = () => {
     <>
 
       {/* MAIN SECTION  */}
-      <main id='main' className="grid grid-rows-1 grid-cols-1 font-montserrat">
+      <main id='main' className="grid grid-rows-1 grid-cols-1 pb-8">
 
         <div className={heroBanner}>
           <Image src={images.classroom.image3} width={1920} height={1282} alt='hero pic' priority='true' className='h-full w-full object-cover' />
@@ -30,6 +31,9 @@ const Newsevents = () => {
 
         </div>
       </main>
+      <footer>
+        <Footer />
+      </footer>
 
     </>
   );

@@ -1,9 +1,11 @@
+import Footer from '@/app/components/Footer/footer';
 import images from '@/db/imagesData';
 import Image from 'next/image';
 import React from 'react'
 
 const Article = () => {
     return (
+        <>
         <div className='pt-20 space-y-8 p-4'>
             <div>
                 <hr /><br />
@@ -39,6 +41,10 @@ const Article = () => {
                     #SchoolSportsBonanza #HonoringOurFounder #AthleticExcellence #BujuDayCelebration</p>
             </div>
         </div>
+        <footer>
+            <Footer />
+        </footer>
+        </>
     )
 }
 
