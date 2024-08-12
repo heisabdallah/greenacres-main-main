@@ -81,8 +81,10 @@ const Admission = () => {
             </div>
 
           </div>
-          <div className='text-center mt-10'>
-            <a href="pdf/Registration Form - Nursery and Primary.pdf" className="download-button text-green-800 font-bold underline" download>Download FORM</a>
+          <div className='text-center mt-10 space-y-2'>
+            <h1 className='font-bold text-xl mb-4'>Download <span className='uppercase text-green-800'>forms</span> below</h1>
+            <a href="pdf/Registration Form - Nursery and Primary.pdf" className="block download-button text-green-800 font-bold underline" download>Nursery & Primary</a>
+            <a href="pdf/Registration Form - Secondary.pdf" className="block download-button text-green-800 font-bold underline" download>Secondary</a>
           </div>
           <div className='flex justify-center mt-12'>
             <AdmissionForm />
