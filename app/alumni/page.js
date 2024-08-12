@@ -8,6 +8,7 @@ import Heading_2 from '../components/main/heading_2';
 import Heading_3 from '../components/main/heading_3';
 import Button_CTA_2 from '../components/Button_CTA_2'
 import Footer from '../components/Footer/footer';
+import YouTubeEmbed from '../components/YoutubeEmbed';
 
 
 const Alumni = () => {
@@ -38,7 +39,7 @@ const Alumni = () => {
             <button className='h-16 w-60 bg-green-900 font-bold text-white'>Check out Greeners News</button>
           </div>
           <div className='mt-8'>
-            <Image src={images.portraits.image2} width={1000} height={1000} className='w-full h-80 object-cover' />
+            <YouTubeEmbed videoId={'yrWozKPGlOc?si=l262RA25h2s6mIav'} />
           </div>
           <div className='space-y-4 mt-16'>
             <Heading_2 label={string.title_3} />
