@@ -50,7 +50,7 @@ const Home = () => {
 
               <Image src={images.logos.image1} height={100} width={100} className='w-20 h-20' />
             </div>
-            <h3 className='text-base md:text-4xl px-10 md:px-20 lg:px-40 text-green-800 text-center leading-relaxed'>At GAS, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.</h3>
+            <h3 className='text-base md:text-2xl lg:text-4xl px-10 md:px-20 lg:px-40 text-green-800 text-center leading-relaxed'>At GAS, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.</h3>
             <br></br>
           </div>
 
@@ -64,7 +64,7 @@ const Home = () => {
             <hr className='border-t-1 border-gray-400 mb-8'></hr>
             <div className='flex flex-col md:flex-row gap-10'>
               <h1 className='text-green-800 font-medium text-3xl md:w-1/3 '>Get to know GAS</h1>
-              <p className='md:w-1/3'>GAS is more than an international school in Tanzania; it’s a community with over 25 years of history and student excellence.</p>
+              <p className='md:w-1/3 lg:text-xl'>GAS is more than an international school in Tanzania; it’s a community with over 25 years of history and student excellence.</p>
               <div className='flex items-center md:w-1/3 gap-2'>
                 <p className='text-green-800 text-base font-medium'>Learn More</p>
                 <Image src={icons.arrowRightGreen} width={20} height={20} className='' />
@@ -302,7 +302,7 @@ const Home = () => {
 
           <div className='mt-20'>
             <h1 className='text-4xl font-bold text-green-800'>Where GAS Students Go</h1>
-            <div className='p-4 py-8 md:p-10 md:pl-14 md:w-3/4'>
+            <div className='p-4 py-8 md:p-10 md:pl-14 md:w-3/4 lg:text-xl'>
               <p>99% of GAS graduates choose to attend University after graduation. Students are empowered to find the University that is right for them. GAS students can be found at large and small higher education universities all over the world.</p>
               <div className='flex items-center gap-2 mt-4'>
                 <p className='text-green-800 text-SM font-medium'>See the full list of university acceptances</p>
@@ -337,7 +337,7 @@ const Home = () => {
 
             <div className='flex flex-col md:flex-row gap-10'>
               <h1 className='text-green-800 font-bold text-3xl md:w-1/3 '>Life at GAS</h1>
-              <p className='md:w-1/3'>Students at GAS love to learn, have fun, and discover new passions on our beautiful, spacious, and state-of-the-art campuses.</p>
+              <p className='md:w-1/3 lg:text-xl'>Students at GAS love to learn, have fun, and discover new passions on our beautiful, spacious, and state-of-the-art campuses.</p>
               <div className='flex items-center md:w-1/3 gap-2'>
 
                 <p className='text-green-800 text-base font-medium'>Learn More about</p>
@@ -360,7 +360,7 @@ const Home = () => {
             {/* <hr className='border-t-1 border-gray-400 mb-8'></hr> */}
             <div className='flex flex-col md:flex-row gap-10'>
               <h1 className='text-green-800 font-bold text-3xl md:w-1/3 '>Community Voices</h1>
-              <p className='md:w-1/3'>GAS is a diverse community that includes not only our students and faculty and staff, but parents and alumni too. Listen to what our community has to say about their GAS experience.</p>
+              <p className='md:w-1/3 lg:text-xl'>GAS is a diverse community that includes not only our students and faculty and staff, but parents and alumni too. Listen to what our community has to say about their GAS experience.</p>
               <div className='flex items-center md:w-1/3 gap-2'>
 
                 <p className='text-green-800 text-base font-medium'>Learn More about GAS Community</p>
