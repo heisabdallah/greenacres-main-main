@@ -62,10 +62,10 @@ const HeroSection = () => {
                 />
             )}
             {/* Your content on top of the video */}
-            {/* <img
+            <img
                 src={images.classroom.image1}
-                className={`${hideImage} absolute flex inset-0 w-full h-48 md:h-96 lg:h-[450px] object-cover`}
-            /> */}
+                className={`${hideImage} absolute flex inset-0 w-full h-48 md:h-96 lg:h-screen object-cover`}
+            />
             {currentOverlay === 1 && (
                 <HeroOverlay
                     title={"Where Dreams Take Root and Grow! 🌱"}
