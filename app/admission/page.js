@@ -43,7 +43,7 @@ const Admission = () => {
             <br></br>
             <p>{string.p_3}</p>
             <br></br>
-            <Image src={images.classroom.image1} width={1000} height={1000} className='w-full h-48 md:h-96 lg:h-[600px] object-cover' />
+            <Image src={images.classroom.image1} width={1000} height={1000} className='w-full h-48 md:h-96 lg:h-[600px] object-cover rounded-lg' />
           </div>
           <div className='text-center text-xl text-slate-600 mt-12'>
             <h3>{string.p_4}</h3>
@@ -54,7 +54,7 @@ const Admission = () => {
           <div>
 
             <div className='relative flex items-end text-white mt-14'>
-              <Image src={images.classroom.image3} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover' />
+              <Image src={images.classroom.image3} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover rounded-lg' />
               <div className='absolute w-full h-full hover:bg-green-800 animate-pulse animation-delay-2000 opacity-70'></div>
               <div className='absolute mb-10 space-y-2 mx-4 drop-shadow-2xl shadow-inner'>
                 <h2 className='font-bold text-3xl mr-10'>A Non-Profit School</h2>
@@ -63,7 +63,7 @@ const Admission = () => {
             </div>
 
             <div className='relative flex items-end text-white mt-14'>
-              <Image src={images.students.image2} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover' />
+              <Image src={images.students.image2} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover rounded-lg' />
               <div className='absolute w-full h-full hover:bg-green-800 animate-pulse animation-delay-2000 opacity-70'></div>
               <div className='absolute mb-10 space-y-2 mx-4 drop-shadow-2xl shadow-inner'>
                 <h2 className='font-bold text-3xl mr-10'>Campuses Built for Learning</h2>
@@ -72,7 +72,7 @@ const Admission = () => {
             </div>
 
             <div className='relative flex items-end text-white mt-14'>
-              <Image src={images.portraits.image1} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover' />
+              <Image src={images.portraits.image1} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover rounded-lg' />
               <div className='absolute w-full h-full hover:bg-green-800 animate-pulse animation-delay-2000 opacity-70'></div>
               <div className='absolute mb-10 space-y-2 mx-4 drop-shadow-2xl shadow-inner'>
                 <h2 className='font-bold text-3xl mr-10'>Opportunities for Every Student</h2>

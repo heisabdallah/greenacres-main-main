@@ -26,7 +26,7 @@ export default function CarouselBasic({ slides }) {
   };
 
   return (
-    <div className="overflow-hidden relative w-full h-80 md:h-[500px] object-cover">
+    <div className="overflow-hidden relative w-full h-80 md:h-[500px] object-cover rounded-lg">
       <div
         className={`flex transition ease-out duration-40`}
         style={{
@@ -34,11 +34,11 @@ export default function CarouselBasic({ slides }) {
         }}
       >
         {slides.map((slide, index) => (
-          <div key={index} className="w-full h-80 md:h-[500px] flex-shrink-0">
+          <div key={index} className="w-full h-80 md:h-[500px] flex-shrink-0 rounded-lg">
             <img
               src={slide}
               alt={`Slide ${index + 1}`}
-              className="w-full h-80 md:h-[500px] object-cover"
+              className="w-full h-80 md:h-[500px] object-cover rounded-lg"
               style={{
                 objectFit: 'cover', // Ensures the image covers the container
                 width: '100%',

@@ -7,7 +7,7 @@ import '../scroll.css'
 const HorizontalScrollableImages = () => {
     return (
         <div className="scroll-container overflow-x-auto whitespace-nowrap mt-16 py-4">
-            <div className="inline-flex space-x-0">
+            <div className="inline-flex space-x-0 ">
                 <ImageContainer
                     image={images.portraits.image1}
                     title="Visit GAS"
