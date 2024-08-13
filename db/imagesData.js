@@ -5,6 +5,13 @@ const images = {
       image1: `${imageFolder}/ga.svg`,
       image2: `${imageFolder}/ga_1.jpg`,
     },
+    partners: {
+      image1: `${imageFolder}/partners/boa.png`,
+      image2: `${imageFolder}/partners/connect.png`,
+      image3: `${imageFolder}/partners/crdb.png`,
+      image4: `${imageFolder}/partners/fimbopr.png`,
+      image5: `${imageFolder}/partners/nmb.png`,
+    },
     backgrounds: {
       image1: `${imageFolder}/backgrounds/bg1.jpg`,
       image2: `${imageFolder}/backgrounds/bg2.jpg`,

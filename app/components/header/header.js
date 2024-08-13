@@ -47,9 +47,9 @@ const Header = () => {
                   <Link href='/' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>Home</li></Link>
                   <Link href='/about' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>About</li></Link>
                   <Link href='/admission' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>Admission</li></Link>
-                  <Link href='/ourschools' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>Our Schools</li></Link>
-                  <Link href='/gallery' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>Gallery</li></Link>
-                  <Link href='/faculty' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>Faculty</li></Link>
+                  <Link href='/ourschools' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>Academics</li></Link>
+                  <Link href='/gallery' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>Activities</li></Link>
+                  <Link href='/faculty' className='cursor-pointer'><li className='p-4 px-8 hover:bg-white hover:text-green-950' onClick={closeSideNav}>Community</li></Link>
                 </ul>
             </nav>
             <nav className='bg-white text-black text-center'>
@@ -95,9 +95,9 @@ const Header = () => {
             <ul className='flex space-x-4 text-sm xl:space-x-8 items-center whitespace-nowrap'>
                 <li className='cursor-pointer hover:text-yellow-400'><Link href='/about'>About</Link></li>
                 <li className='cursor-pointer hover:text-yellow-400'><Link href='/admission'>Admission</Link></li>
-                <li className='cursor-pointer hover:text-yellow-400'><Link href='/ourschools'>Our Schools</Link></li>
-                <li className='cursor-pointer hover:text-yellow-400'><Link href='/gallery'>Gallery</Link></li>
-                <li className='cursor-pointer hover:text-yellow-400'><Link href='/faculty'>Faculty</Link></li>
+                <li className='cursor-pointer hover:text-yellow-400'><Link href='/ourschools'>Academics</Link></li>
+                <li className='cursor-pointer hover:text-yellow-400'><Link href='/gallery'>Activities</Link></li>
+                <li className='cursor-pointer hover:text-yellow-400'><Link href='/faculty'>Community</Link></li>
               </ul>
           </nav>
         </div>

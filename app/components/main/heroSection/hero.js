@@ -38,7 +38,7 @@ const HeroSection = () => {
                 loop
                 muted
                 onLoadedData={handleLoading}
-                className="w-full h-48 md:h-96 lg:h-[450px] object-cover"
+                className="w-full h-48 md:h-96 lg:h-screen object-cover"
             >
                 <source src="/videos/greenacresvideo.mp4" type="video/mp4" />
             </video>
@@ -62,10 +62,10 @@ const HeroSection = () => {
                 />
             )}
             {/* Your content on top of the video */}
-            <img
+            {/* <img
                 src={images.classroom.image1}
                 className={`${hideImage} absolute flex inset-0 w-full h-48 md:h-96 lg:h-[450px] object-cover`}
-            />
+            /> */}
             {currentOverlay === 1 && (
                 <HeroOverlay
                     title={"Where Dreams Take Root and Grow! 🌱"}
