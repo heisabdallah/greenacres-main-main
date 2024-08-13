@@ -50,7 +50,7 @@ const Home = () => {
 
               <Image src={images.logos.image1} height={100} width={100} className='w-20 h-20' />
             </div>
-            <h3 className='text-base md:text-2xl lg:text-4xl px-10 md:px-20 lg:px-40 text-green-800 text-center leading-relaxed'>At GAS, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.</h3>
+            <h3 className='text-base md:text-2xl lg:text-3xl px-10 md:px-20 lg:px-40 text-green-800 text-center leading-relaxed'>At GAS, we prepare students from across the globe to be best in what they aspire for and at the same time, be best for the world they live in.</h3>
             <br></br>
           </div>
 
