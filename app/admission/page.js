@@ -31,7 +31,7 @@ const Admission = () => {
 
           </div>
         </div>
-        <div className='px-5 pt-20 md:px-8 lg:px-20 xl:px-60'>
+        <div className='px-5 pt-20 md:px-8 lg:px-20 lg:pt-[600px] xl:px-60'>
           <h1 className='pt-10 text-4xl font-black text-green-800'>{string.title_1}</h1>
           <div className='py-10'>
             <h1 className='text-5xl font-bold text-green-800 mb-4'>{string.title_2}</h1>
