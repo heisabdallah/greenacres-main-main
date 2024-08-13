@@ -19,8 +19,8 @@ const Admission = () => {
       <main id='main' className="grid grid-rows-1 grid-cols-1 font-montserrat">
 
         <div className={heroBanner} style={{ position: 'relative' }}>
-          <div className='relative flex items-end w-screen h-96 text-white '>
-            <Image src={images.students.image4} width={1920} height={1282} alt='hero pic' priority='true' className='absolute h-full w-full object-cover' />
+          <div className='relative flex items-end w-screen h-96 md:h-full lg:h-screen text-white'>
+            <Image src={images.classroom.image4} width={1920} height={1282} alt='hero pic' priority='true' className='absolute h-full w-full object-cover' />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 opacity-40"></div>
             <div className='absolute mb-8 space-y-4 mx-5 drop-shadow-2xl shadow-inner'>
               <hr />
@@ -43,7 +43,7 @@ const Admission = () => {
             <br></br>
             <p>{string.p_3}</p>
             <br></br>
-            <Image src={images.classroom.image1} width={1000} height={1000} className='w-full h-48 object-cover' />
+            <Image src={images.classroom.image1} width={1000} height={1000} className='w-full h-48 md:h-96 lg:h-[600px] object-cover' />
           </div>
           <div className='text-center text-xl text-slate-600 mt-12'>
             <h3>{string.p_4}</h3>
@@ -54,7 +54,7 @@ const Admission = () => {
           <div>
 
             <div className='relative flex items-end text-white mt-14'>
-              <Image src={images.classroom.image3} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] object-cover' />
+              <Image src={images.classroom.image3} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover' />
               <div className='absolute w-full h-full hover:bg-green-800 animate-pulse animation-delay-2000 opacity-70'></div>
               <div className='absolute mb-10 space-y-2 mx-4 drop-shadow-2xl shadow-inner'>
                 <h2 className='font-bold text-3xl mr-10'>A Non-Profit School</h2>
@@ -63,7 +63,7 @@ const Admission = () => {
             </div>
 
             <div className='relative flex items-end text-white mt-14'>
-              <Image src={images.students.image2} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] object-cover' />
+              <Image src={images.students.image2} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover' />
               <div className='absolute w-full h-full hover:bg-green-800 animate-pulse animation-delay-2000 opacity-70'></div>
               <div className='absolute mb-10 space-y-2 mx-4 drop-shadow-2xl shadow-inner'>
                 <h2 className='font-bold text-3xl mr-10'>Campuses Built for Learning</h2>
@@ -72,7 +72,7 @@ const Admission = () => {
             </div>
 
             <div className='relative flex items-end text-white mt-14'>
-              <Image src={images.portraits.image1} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] object-cover' />
+              <Image src={images.portraits.image1} width={1000} height={1000} className='w-full h-72 md:h-[450px] md:w-[600px] lg:w-full lg:h-[600px] object-cover' />
               <div className='absolute w-full h-full hover:bg-green-800 animate-pulse animation-delay-2000 opacity-70'></div>
               <div className='absolute mb-10 space-y-2 mx-4 drop-shadow-2xl shadow-inner'>
                 <h2 className='font-bold text-3xl mr-10'>Opportunities for Every Student</h2>
