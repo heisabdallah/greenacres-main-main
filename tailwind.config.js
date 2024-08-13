@@ -27,9 +27,18 @@ module.exports = {
             transform: 'translateX(-300%)',
           }
         },
+       "loop-scroll": {
+          '0%': {
+            transform: 'translateX(0)',
+          },
+          '100%': {
+            transform: 'translateX(-100%)',
+          }
+        },
       },
       animation: {
         slide_from_right: 'slide_from_right 6s ease-in-out both',
+        "loop-scroll": "loop-scroll 50s linear infinite"
       }
     },fontFamily:{
       inter: ['var(--font-inter)', 'sans-serif'],

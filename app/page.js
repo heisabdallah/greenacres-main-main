@@ -74,20 +74,231 @@ const Home = () => {
 
           <HorizontalScrollableImages />
 
-          <div className="overflow-hidden flex w-full justify-center animate-infinite">
-            {partners.map((image, index) => (
-              <div key={index} className='w-40 h-40 p-10 '>
+          <div className='flex flex-row'>
 
+            <div className="flex justify-center animate-loop-scroll">
+              <div className='w-40 h-40 p-10'>
                 <Image
-                  src={image} // or image.url if the URL is stored in the `url` property
-                  alt={image || 'Partner image'} // provide a default alt text if `alt` is not available
+                  src={partners[1]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
                   width={50}
                   height={50}
                   className="h-full w-full m-8 object-cover" // add any class names or styles you need
                 />
               </div>
-            ))}
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[2]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[3]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[4]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[1]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[2]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[1]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[2]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[3]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[4]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[1]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[2]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+            </div>
+
+            <div className="flex justify-center animate-loop-scroll" aria-hidden="true">
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[1]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[2]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[3]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[4]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[1]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[2]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[1]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[2]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[3]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[4]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[1]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+              <div className='w-40 h-40 p-10'>
+                <Image
+                  src={partners[2]} // or image.url if the URL is stored in the `url` property
+                  alt={'Partner image'} // provide a default alt text if `alt` is not available
+                  width={50}
+                  height={50}
+                  className="h-full w-full m-8 object-cover" // add any class names or styles you need
+                />
+              </div>
+            </div>
           </div>
+
 
           <div className='mt-20'>
             <h1 className='text-4xl font-bold text-green-800'>Where GAS Students Go</h1>
