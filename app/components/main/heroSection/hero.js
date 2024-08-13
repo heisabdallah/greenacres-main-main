@@ -31,7 +31,7 @@ const HeroSection = () => {
     }, []);
 
     return (
-        <div className="relative overflow-hidden mt-16">
+        <div className="relative overflow-hidden mt-16 lg:mt-0">
             <video
                 preload="auto"
                 autoPlay
